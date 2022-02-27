@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tiempo</title>
+    <link rel="icon" href="https://m.n.com.do/wp-content/uploads/2020/07/Melia.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./tiempoAPI.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="https://www.anpublicidad.com/wp-content/uploads/2011/11/melia_mini.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
+            MELIA HOTELS
+        </a>
+    </div>
+</nav>
+
+<header>
+
+</header>
+
+<main>
+    <div id="contenedor1">
+    <div class="row justify-content-center mt-4" >
+        <div class="col-md-auto">
+    <h3>Consulte el tiempo actual de sus posibles destinos!</h3>
+        </div>
+    </div>
+
+    <div class="row justify-content-center " >
+        <div class="col-md-auto">
+            <form>
+            <input type="text"  placeholder="Escriba la ciudad" autofocus>
+            <button type="submit"> BUSCAR </button>
+            <button type="reset"> RESET </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <br></br>
+    <div id="espacioCiudades">
+    <section class="list">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
+    </div>
+</main>
+
+
+
+<footer class="text-center text-white" style="background-color: #f1f1f1;">
+
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:MELIA.
+        <br> </br>
+        API provided by Weather.org
+    </div>
+    <!-- Copyright -->
+</footer>
+
+</body>
+
+<script src="./jquery.js"></script>
+<script src="./tiempo.js"></script>
+</html>
